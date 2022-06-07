@@ -55,7 +55,7 @@ int main(){
    int arr [10] {100,43,234,543,3,5,1,23423,35,34};
    int arr2 [5] = {1,2,4,5,6};
 
-    quickSort(arr ,0 ,  10-1);
+    quickSort(arr ,0 ,  10);
 
     for(int i =0 ; i<10 ; i++){
         cout<<arr[i]<<" ";
